@@ -1,0 +1,29 @@
+#I used brute-force approach when I did my extra credit homework 
+#I know that was stupid  
+#try to make it a math problem this time
+#Using recursion
+//current queen: (x,y)
+//next queen: (i,j)
+//so if they are in diagonal: |i-x|=|j-y|
+//if they are in the same row: i == x
+//if they are in the same column: y == j
+
+def check
+//check if the chesses are not on the same column/diagonal/row
+
+
+def mainMethod
+//base case
+if row == 9,
+  print the chess board
+  return 
+//recursion
+  while column < 9
+  if check returns true //call the check method
+  put a queen
+  if the mainMethod returns  false
+    go backto put the queen on the next location...
+  else:
+    return true  // maybe need to be delete if want all solutions
+return false
+
